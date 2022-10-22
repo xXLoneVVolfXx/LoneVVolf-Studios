@@ -1,0 +1,376 @@
+ /* Estevan Lerma
+    Grand Canyon University
+    CST-120
+    Bill Hughes
+    10/14/2022  */
+
+
+ /* -----------------------------------------------
+        Start - Navigation Bar Styles
+-------------------------------------------------- */
+
+ /* Nav Attribute Style */
+
+ .nav {
+
+     position: relative;
+     width: 100%;
+     height: 0%;
+     background-color: #0F1314;
+     line-height: 50%;
+
+ }
+
+ /* Sticky Class */
+
+ .sticky {
+     position: sticky;
+     top: 0px;
+ }
+
+ /* Logo class */
+
+ .logo {
+     width: 250;
+     height: 100px;
+     vertical-align: top;
+     margin: 0px;
+     float: left;
+
+
+ }
+
+
+ /* Under-ordered List Attribute Style */
+ ul {
+     list-style-type: none;
+     margin: 0px;
+     padding: 0px 0px;
+     overflow: hidden;
+     background-color: #0F1314;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration-color: white;
+     font-size: 40px;
+
+ }
+
+ /* List Attribute Style */
+ li {
+     float: left;
+     line-height: 100px;
+ }
+
+ /* List anchor tag style */
+ li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 15px 15px;
+     text-decoration: none;
+     align-items: flex-end;
+ }
+
+ /* Anchor tag declaration*/
+ /* Set to none so the underline on links doesn't appear */
+ a {
+     text-decoration: none;
+     cursor: pointer;
+ }
+
+ /* List active anchor tag effect*/
+ .active {
+     color: blueviolet;
+ }
+
+ /* List anchor tag hover effect */
+ li a:hover:not(.active) {
+     color: #D207FF;
+     cursor: pointer;
+ }
+
+
+ /* -----------------------------------------------
+           End - Navigation Bar Styles
+-------------------------------------------------- */
+
+
+ /* -----------------------------------------------
+           Start - Image Styles
+-------------------------------------------------- */
+
+ .hero {
+
+     position: static;
+     display: flex;
+     height: 500px;
+     width: 100%;
+     vertical-align: top;
+     margin: 3px;
+
+ }
+
+ /* -----------------------------------------------
+           End - Image Styles
+-------------------------------------------------- */
+
+ /* -----------------------------------------------
+           Start - Article/Paragraph/Text Styles
+-------------------------------------------------- */
+
+
+
+ /* HR attribute style */
+ hr {
+     width: 100%;
+     height: 5px;
+     background-color: white;
+
+ }
+
+ article {
+     background-color: #0F1314;
+     font-family: arial;
+     color: white;
+     padding: 5px 5px;
+     font-size: 4;
+ }
+
+ /* -----------------------------------------------
+           End - Article/Paragraph/Text Styles
+-------------------------------------------------- */
+
+
+
+ /* -----------------------------------------------
+           Start - Flexbox
+-------------------------------------------------- */
+
+ /* Cards Class */
+
+ .cards {
+
+     display: flex;
+     flex-wrap: wrap;
+     align-items: stretch;
+
+ }
+
+
+ /*Card Class Anchor Tag */
+
+ .Card a {
+     text-decoration: none;
+     color: white;
+     cursor: pointer;
+
+
+
+ }
+
+ /* Card Class */
+
+ .Card {
+
+     flex: 50%;
+     width: 100%;
+     height: 100%;
+     position: relative;
+     opacity: 0;
+     transition: opacity 0.25s;
+ }
+
+ /* Card Class Hover Effect */
+
+ .Card:hover {
+     opacity: 1;
+ }
+
+ /* Card Title */
+
+ .CardTitle {
+
+
+     color: white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 40px;
+     text-align: center;
+ }
+
+ /* Card Info */
+
+ .CardInfo {
+     text-align: center;
+     padding: 0 20px 20px;
+     color: white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 30px;
+
+
+ }
+
+ /* -----------------------------------------------
+           Start - Flexbox/About Card
+-------------------------------------------------- */
+
+ .aboutCard {
+
+     position: static;
+     display: flex;
+     flex: auto;
+     width: 240%;
+     height: auto;
+     margin: 3px;
+     padding: 5px;
+     background-image: url("../Images/AboutCardImg.jpg");
+     background-repeat: no-repeat;
+     background-size: 100% 500px;
+     background-position: center;
+
+ }
+
+ /* -----------------------------------------------
+           End - Flexbox/About Card
+-------------------------------------------------- */
+
+ /* -----------------------------------------------
+           Start - Flexbox/Creations Card
+-------------------------------------------------- */
+
+ .creationsCard {
+
+     position: static;
+     flex: 50%;
+     width: 260%;
+     height: auto;
+     margin: 3px;
+     padding: 5px;
+     background-image: url("../Images/CreationsCardImg.jpg");
+     background-repeat: no-repeat;
+     background-size: 100% 500px;
+     background-position: center;
+ }
+
+ /* -----------------------------------------------
+           End - Flexbox/Creations Card
+-------------------------------------------------- */
+
+ /* -----------------------------------------------
+           Start - Flexbox/Projects Card
+-------------------------------------------------- */
+
+ .projectsCard {
+
+     position: static;
+
+     width: 223%;
+     height: auto;
+     margin: 3px;
+     padding: 5px;
+     background-image: url("../Images/LiveProjectsCardImg.jpg");
+     background-repeat: no-repeat;
+     background-size: 100% 500px;
+     background-position: center;
+ }
+
+ /* -----------------------------------------------
+           End - Flexbox/Projects Card
+-------------------------------------------------- */
+
+ /* -----------------------------------------------
+           Start - Flexbox/Products Card
+-------------------------------------------------- */
+
+ .productsCard {
+
+     position: static;
+
+     width: 312%;
+     height: auto;
+     margin: 3px;
+     padding: 5px;
+     background-image: url("../Images/ProductsCardImg.jpg");
+     background-repeat: no-repeat;
+     background-size: 100% 500px;
+     background-position: center;
+ }
+
+ /* -----------------------------------------------
+           End - Flexbox/Creations Card
+-------------------------------------------------- */
+
+ /* -----------------------------------------------
+           Start - Flexbox/Videos Card
+-------------------------------------------------- */
+
+ .videosCard {
+
+     position: static;
+
+     width: 177%;
+     height: auto;
+     margin: 3px;
+     padding: 5px;
+     background-image: url("../Images/VideosCardImg.jpg");
+     background-repeat: no-repeat;
+     background-size: 100% 500px;
+     background-position: center;
+
+
+ }
+
+ .videosCard .CardTitle {
+
+     color: black
+ }
+
+ /* -----------------------------------------------
+           End - Flexbox/Videos Card
+-------------------------------------------------- */
+
+ /* -----------------------------------------------
+           Start - Flexbox/Contact Card
+-------------------------------------------------- */
+
+ .contactCard {
+
+     position: static;
+
+     width: 392%;
+     height: auto;
+     margin: 3px;
+     padding: 5px;
+     background-image: url("../Images/ContactCardImg.jpg");
+     background-repeat: no-repeat;
+     background-size: 100% 500px;
+     background-position: center;
+
+ }
+
+ /* -----------------------------------------------
+           End - Flexbox/Contact Card
+-------------------------------------------------- */
+
+
+
+
+ /* -----------------------------------------------
+           End - Flexbox
+-------------------------------------------------- */
+
+
+ /* -----------------------------------------------
+           Start - About Page Styles
+-------------------------------------------------- */
+
+ .languageList {
+
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     float: left;
+
+ }
+
+ /* -----------------------------------------------
+           End - About Page Styles
+-------------------------------------------------- */
